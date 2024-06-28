@@ -1,0 +1,41 @@
+body{
+    background-color: lightblue;
+}
+
+#titulo{
+    display: flex;
+    justify-content: center;
+    margin: 10vh;
+    font-size: 8vh;
+    border-style: solid;
+    width: 40%;
+    margin-left: 400px;
+    border-radius: 10px;
+}
+
+.niveis{
+    display: flex;
+    justify-content: center;
+}
+
+#butFacil, #butMedio, #butDificil{
+    margin: 15vh;
+    height: 20vh;
+    width: 25vh;
+    box-shadow: 3px 3px;
+    font-size: 3vh;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#butFacil{
+    background-color: lightgreen;
+}
+
+#butMedio{
+    background-color: yellow;
+}
+
+#butDificil{
+    background-color: tomato;
+}

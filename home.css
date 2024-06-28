@@ -1,0 +1,46 @@
+* {
+    justify-content: center;
+    text-align: center;
+}
+
+body {
+    background-color:lightblue;
+    color:tomato;
+    display: auto;
+}
+
+button {
+    max-width: 100pc;
+    width: auto;
+    height: auto;
+    color: rgb(0, 163, 223);
+    background-color: rgb(114, 114, 114);
+    border: 5px;
+    padding: 30px;
+    margin-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+    background-color: tomato;
+    color: white;
+
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+
+#a {
+    margin-top: 200px;
+    padding-left: 58px;
+    padding-right: 58px;
+}

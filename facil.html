@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palavra Cruzada</title>
+    <link rel="stylesheet" href="css/facil.css">
+</head>
+<body>
+
+    <h1 style="font-size: 40px;">FÁCIL</h1>
+
+    <div class="message" id="message0"></div>
+
+    <table>
+        <tr>
+            <td><input id="box00" type="text" maxlength="2" oninput="checkAnswer(0, 57)"></td>
+            <td class="operator">+</td>
+            <td><input id="box01" type="text" maxlength="2" oninput="checkAnswer(0, 57)"></td>
+            <td class="operator">=</td>
+            <td class="answer">57</td>
+        </tr>
+    </table>
+
+    <div class="message" id="message1"></div>
+    <table>
+        <tr>
+            <td><input id="box10" type="text" maxlength="2" oninput="checkAnswer(1, 2)"></td>
+            <td class="operator">-</td>
+            <td><input id="box11" type="text" maxlength="2" oninput="checkAnswer(1, 2)"></td>
+            <td class="operator">=</td>
+            <td class="answer">2</td>
+        </tr>
+    </table>
+
+    <div class="message" id="message2"></div>
+    <table>
+        <tr>
+            <td><input id="box20" type="text" maxlength="2" oninput="checkAnswer(2, 72)"></td>
+            <td class="operator">*</td>
+            <td><input id="box21" type="text" maxlength="2" oninput="checkAnswer(2, 72)"></td>
+            <td class="operator">=</td>
+            <td class="answer">72</td>
+        </tr>
+    </table>
+
+    <div class="message" id="message3"></div>
+    <table>
+        <tr>
+            <td><input id="box30" type="text" maxlength="2" oninput="checkAnswer(3, 48)"></td>
+            <td class="operator">*</td>
+            <td><input id="box31" type="text" maxlength="2" oninput="checkAnswer(3, 48)"></td>
+            <td class="operator">=</td>
+            <td class="answer">48</td>
+        </tr>
+    </table>
+
+    <div class="message" id="message4"></div>
+    <table>
+        <tr>
+            <td><input id="box40" type="text" maxlength="2" oninput="checkAnswer(4, 19)"></td>
+            <td class="operator">+</td>
+            <td><input id="box41" type="text" maxlength="2" oninput="checkAnswer(4, 19)"></td>
+            <td class="operator">=</td>
+            <td class="answer">19</td>
+        </tr>
+    </table>
+
+    <div class="message" id="message5"></div>
+    <table>
+        <tr>
+            <td><input id="box50" type="text" maxlength="2" oninput="checkAnswer(5, 23)"></td>
+            <td class="operator">-</td>
+            <td><input id="box51" type="text" maxlength="2" oninput="checkAnswer(5, 23)"></td>
+            <td class="operator">=</td>
+            <td class="answer">23</td>
+        </tr>
+    </table>
+
+    <p id="result"></p>
+
+    <script src="js/facil.js"></script>
+
+</body>
+</html>

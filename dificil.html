@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Difícil</title>
+    <link rel="stylesheet" href="css/dificil.css">
+</head>
+<body>
+    
+    <h1 style="font-size: 40px;">DIFÍCIL</h1>
+
+    <div class="message" id="message0"></div>
+    <table>
+        <tr>
+            <td><input id="box00" type="text" maxlength="3" oninput="checkAnswer(0, 18)"></td>
+            <td class="operator">*</td>
+            <td><input id="box01" type="text" maxlength="3" oninput="checkAnswer(0, 18)"></td>
+            <td class="operator">+</td>
+            <td><input id="box02" type="text" maxlength="3" oninput="checkAnswer(0, 18)"></td>
+            <td class="operator">=</td>
+            <td class="answer">18</td>
+        </tr>
+    </table>
+
+    <div class="message" id="message1"></div>
+    <table>
+        <tr>
+            <td><input id="box10" type="text" maxlength="3" oninput="checkAnswer(1, 26)"></td>
+            <td class="operator">*</td>
+            <td><input id="box11" type="text" maxlength="3" oninput="checkAnswer(1, 26)"></td>
+            <td class="operator">+</td>
+            <td><input id="box12" type="text" maxlength="3" oninput="checkAnswer(1, 26)"></td>
+            <td class="operator">=</td>
+            <td class="answer">26</td>
+        </tr>
+    </table>
+
+    <div class="message" id="message2"></div>
+    <table>
+        <tr>
+            <td><input id="box20" type="text" maxlength="3" oninput="checkAnswer(2, 32)"></td>
+            <td class="operator">*</td>
+            <td><input id="box21" type="text" maxlength="3" oninput="checkAnswer(2, 32)"></td>
+            <td class="operator">+</td>
+            <td><input id="box22" type="text" maxlength="3" oninput="checkAnswer(2, 32)"></td>
+            <td class="operator">=</td>
+            <td class="answer">32</td>
+        </tr>
+    </table>
+
+    <div class="message" id="message3"></div>
+    <table>
+        <tr>
+            <td><input id="box30" type="text" maxlength="3" oninput="checkAnswer(3, 7)"></td>
+            <td class="operator">*</td>
+            <td><input id="box31" type="text" maxlength="3" oninput="checkAnswer(3, 7)"></td>
+            <td class="operator">-</td>
+            <td><input id="box32" type="text" maxlength="3" oninput="checkAnswer(3, 7)"></td>
+            <td class="operator">=</td>
+            <td class="answer">7</td>
+        </tr>
+    </table>
+
+    <div class="message" id="message4"></div>
+    <table>
+        <tr>
+            <td><input id="box40" type="text" maxlength="3" oninput="checkAnswer(4, 60)"></td>
+            <td class="operator">*</td>
+            <td><input id="box41" type="text" maxlength="3" oninput="checkAnswer(4, 60)"></td>
+            <td class="operator">-</td>
+            <td><input id="box42" type="text" maxlength="3" oninput="checkAnswer(4, 60)"></td>
+            <td class="operator">=</td>
+            <td class="answer">60</td>
+        </tr>
+    </table>
+
+    <div class="message" id="message5"></div>
+    <table>
+        <tr>
+            <td><input id="box50" type="text" maxlength="3" oninput="checkAnswer(5, 20)"></td>
+            <td class="operator">*</td>
+            <td><input id="box51" type="text" maxlength="3" oninput="checkAnswer(5, 20)"></td>
+            <td class="operator">+</td>
+            <td><input id="box52" type="text" maxlength="3" oninput="checkAnswer(5, 20)"></td>
+            <td class="operator">=</td>
+            <td class="answer">20</td>
+        </tr>
+    </table>
+
+    <script src="js/dificil.js"></script>
+
+</body>
+</html>
